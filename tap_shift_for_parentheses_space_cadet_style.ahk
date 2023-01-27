@@ -1,4 +1,5 @@
 ; Tap left shift for left paren, right for right... space cadet style!
+
 ; Tune this TimeLimit variable to your liking:
 TimeLimit = 500  ; milliseconds before parentheses-sending function is cancelled
 
@@ -30,3 +31,6 @@ If (A_TickCount < StartTimeR + TimeLimit) AND (UserInput = "")
     Send )
 }
 return
+
+
+; Adapted from autohotkey.com/board/topic/112536-remap-lshift-and-rshift-to-and-when-no-other-key-is-pressed-before-release/?p=663290
